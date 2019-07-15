@@ -1,0 +1,77 @@
+html,
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding-top: 3vh;
+    background: #222
+}
+
+.txt {
+    color: #fff;
+    text-align: center;
+    font-size: 5vh;
+    margin: 2vh
+}
+
+#board {
+    padding: 0;
+    margin: auto;
+    margin-top: 3vh
+}
+
+.fire,
+.atom,
+.corner {
+    border: 1px solid #000;
+    font-size: 3vh;
+    margin: 0.05vh;
+    padding: 0;
+    height: 5vh;
+    width: 5vh;
+    line-height: 5vh;
+    vertical-align: center;
+    background: #333;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    float: left;
+    color: #fff
+}
+
+.corner {
+    background: #222;
+    cursor: auto
+}
+
+.atom {
+    background: #ddd;
+    color: #000;
+    font-size: 6vh
+}
+
+.check,
+.again {
+    border: 1px solid #080;
+    font-size: 3vh;
+    margin: 0vh;
+    padding: 0;
+    height: 4.5vh;
+    width: 19vh;
+    line-height: 4vh;
+    vertical-align: center;
+    background: #0c3;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer
+}
+
+.again {
+    border: 1px solid #008;
+    background: #06c;
+    color: #fff
+}
+
+.hide {
+    display: none
+}
